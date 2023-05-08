@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<!-- saved from url=(0147)https://blackboard.oneonta.edu/bbcswebdav/pid-1720782-dt-content-rid-17624672_1/courses/CSCI-4450-919-SPRING2023/Website%20Development%20Vocab.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2019 by your firstname lastname</title>
+
+<!-- This is a comment line which won't be rendered by any HTML browser -->
+
+
+<style>
+
+.title {
+  background-color: rgb(226, 175, 219);
+  color: rgb(250, 250, 247);
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 32px;
+}
+
+.sectionheading {
+  background-color: #a77;
+  color: black;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+}
+
+.collapsible {
+  background-color: #499793;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+</style>
+
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="title"> Defining 25 useful concepts | Kyle Wenzel</div>
+
+
+<button class="collapsible">1. Provide answers for the following concepts: client-server application, socket programming, ip address, tcp port, http
+</button>
+<div class="content">
+  <p>Client-server application:
+    A client-server application is a software architecture where one computer (client) requests services or resources from another computer (server) over a network.
+    In a client-server application, the server typically provides the resources or services, while the client requests and utilizes them.
+    <br>Socket programming:
+    Socket programming is a way for computers to communicate with each other over a network by using sockets, which are endpoints for communication.
+    Socket programming allows developers to create client-server applications and transfer data between them using a variety of protocols.
+    <br>IP address:
+    An IP address is a numerical identifier assigned to every device connected to the internet that uses the Internet Protocol to communicate.
+    IP addresses are used to uniquely identify devices and facilitate communication between them on a network.
+    <br>TCP port:
+    A TCP port is a number used to identify a specific process to which data is sent when it is received by a device on a network.
+    TCP ports are used by computers to establish connections and send data to specific services or applications running on other devices.
+    <br>HTTP:
+    HTTP (Hypertext Transfer Protocol) is a protocol used for transferring data over the internet, most commonly used for accessing websites.
+    HTTP operates on top of the TCP/IP protocol, and it defines how clients and servers should communicate with each other to exchange information such as web pages, images, videos, and other types of content.</p>
+</div>
+
+<button class="collapsible">2. session and sessionStorage, localStorage, IndexedDB </button>
+<div class="content">
+  <p> sessionStorage:
+    sessionStorage is a web storage API that allows web developers to store key-value pairs in a user's browser for the duration of a session.
+    Data stored in sessionStorage is available only to the window or tab that created it, and it is deleted when the window or tab is closed.
+    <br>localStorage:
+    localStorage is a web storage API that allows web developers to store key-value pairs in a user's browser for an extended period of time.
+    Data stored in localStorage is available across all windows and tabs and persists even after the browser is closed, making it useful for storing user preferences or other data.
+    <br>IndexedDB:
+    IndexedDB is a client-side web storage API that provides a powerful and flexible way to store and retrieve structured data in a user's browser.
+    With IndexedDB, web developers can create object stores and indexes, and use advanced queries to efficiently retrieve data, making it ideal for building complex web applications that require offline data storage and synchronization.</p>
+</div>
+
+<button class="collapsible">3. backbone, ember, underscore, bootstrap </button>
+<div class="content">
+	<p>Backbone:
+    Backbone is a lightweight JavaScript library that provides a simple and flexible way to structure and organize client-side web applications.
+    Backbone uses a Model-View-Controller (MVC) architecture, allowing developers to separate concerns and easily maintain and extend their codebase.
+    <br>Ember:
+    Ember is a JavaScript framework for building ambitious web applications, with a focus on developer productivity and ease of use.
+    Ember uses a convention-over-configuration approach, providing a set of defaults and conventions that help developers quickly build complex applications.
+    <br>Underscore:
+    Underscore is a utility library for JavaScript that provides a set of functional programming tools and helpers, such as iterators, arrays, and object manipulation methods.
+    Underscore is designed to be lightweight and flexible, making it easy to integrate into any JavaScript project.
+    <br>Bootstrap:
+    Bootstrap is a popular front-end framework that provides a set of HTML, CSS, and JavaScript components and tools for building responsive, mobile-first web pages and applications.
+    Bootstrap includes a wide range of components, such as navigation bars, buttons, forms, and modals, making it easy to build consistent and professional-looking interfaces.
+		</p>
+
+</div>
+
+<button class="collapsible">4. Differences among CSS, LESS, SASS (Syntactically Awesome Stylesheet)</button>
+<div class="content">
+  <p>CSS is a stylesheet language that uses a plain-text syntax to style web pages. LESS and SASS are both CSS preprocessors that extend the functionality of CSS with additional features and a more advanced syntax. SASS uses a syntax inspired by programming languages like Ruby, while LESS uses a syntax inspired by JavaScript.<br>
+    LESS and SASS provide several features that are not available in CSS, such as variables, mixins, nested rules, and functions. These features make it easier to write and maintain complex stylesheets, and allow for more efficient reuse of code.<br>
+    CSS is relatively easy to learn and understand, while LESS and SASS have a steeper learning curve due to their advanced features and syntax. </p>
+</div>
+
+<button class="collapsible">5. What are data-attributes? </button>
+<div class="content">
+  <p>metadata that is associated with a file or block of data. This metadata can include information such as file type, creation date, author, and permissions, and is used to provide context and additional information about the data.</p>
+</div>
+
+<button class="collapsible">6. gcp cloud run, firestore, bucket, gke </button>
+<div class="content">
+  <p>GCP Cloud Run is a fully managed serverless platform that allows developers to deploy and run containerized applications. It automatically scales the number of instances based on incoming traffic, and charges only for the actual usage.
+
+    <br>Firestore is a NoSQL document database service provided by Google Cloud Platform (GCP). It is designed for real-time and scalable applications, allowing developers to store and query data in a flexible and structured way, and offers strong consistency, automatic indexing, and easy integration with other GCP services.
+    
+    <br>A Bucket in GCP refers to a container for storing and organizing objects, such as files or images, in Google Cloud Storage. Buckets provide durable and highly available storage, and can be configured with fine-grained access control and lifecycle policies.
+    
+    <br>GKE, or Google Kubernetes Engine, is a fully managed Kubernetes service provided by GCP. It allows developers to deploy, manage, and scale containerized applications in a flexible and efficient way, and integrates seamlessly with other GCP services such as Cloud Load Balancing and Cloud Storage.</p>
+</div>
+
+<button class="collapsible">7. Explain npm, npx, nvm,  package.json and package-lock.json files</button>
+<div class="content">
+  <p>NPM (Node Package Manager) is a package manager for Node.js that allows developers to easily install and manage dependencies for their projects. It provides access to a vast collection of open-source packages and simplifies the process of sharing and reusing code.
+
+    <br>NPX is a package runner tool that comes bundled with NPM. It allows developers to run a command-line tool or script without having to install it globally or manually manage its dependencies, and can be used for one-off tasks or as part of a development workflow.
+    
+    <br>NVM (Node Version Manager) is a tool that allows developers to easily switch between different versions of Node.js installed on their system. It provides a simple command-line interface for managing multiple Node.js installations, and is particularly useful for testing and development purposes.
+    
+    <br>The package.json file is a configuration file for NPM that contains information about a Node.js project, such as its name, version, dependencies, and scripts. It is used to manage project dependencies, specify build scripts, and define other project-specific settings.
+    
+    <br>The package-lock.json file is a lockfile automatically generated by NPM when installing dependencies for a project. It provides a deterministic and reproducible build by ensuring that all dependencies are installed at the exact version specified in the file, preventing version conflicts and guaranteeing consistent builds across different environments.</p>
+</div>
+
+<button class="collapsible">8. Differentiate nextjs vs. meteorjs vs. expressjs </button>
+<div class="content">
+  <p> Next.js is focused on server-side rendering and performance, Meteor.js is focused on real-time and collaborative features, and Express.js is focused on simplicity and flexibility for server-side applications. Each framework offers unique features and is suitable for different types of web applications depending on their specific needs and requirements.</p>
+</div>
+
+<button class="collapsible">9. Name 4 major differences between angular  vs. react  </button>
+<div class="content">
+  <p> Angular uses declarative templating with HTML and custom directives to build UI components, whereas React uses JSX, which allows developers to write HTML-like code directly in JavaScript.<br>
+    Angular provides built-in state management through its reactive forms and observables, while React relies on external libraries such as Redux or the Context API for state management.<br>
+    Angular has a more extensive set of tools and features built-in, such as the Angular CLI, which provides a comprehensive set of tools for building, testing, and deploying applications. React has fewer built-in tools, but its modular design allows for more flexibility in choosing external libraries and tools.<br>
+    Angular has a steeper learning curve than React due to its complex architecture and numerous built-in features. React, on the other hand, has a shallower learning curve because of its simple and modular design.</p>
+</div>
+
+<button class="collapsible">10. Briefly compare json, xml, yaml, and markdown.</button>
+<div class="content">
+  <p>JSON is a lightweight data interchange format, XML is a markup language used for document structuring and data exchange, YAML is a human-readable data serialization language, and Markdown is a lightweight markup language used for formatting text.</p>
+</div>
+
+<button class="collapsible">11. Name two differences between netlify and back4APP, and provide 3 alternatives and competitors to them.</button>
+<div class="content">
+  <p>Differences:<br>
+    Netlify provides a global content delivery network (CDN) for faster site loading times, while Back4App offers multi-cloud support for deploying applications across different cloud providers.
+    <br>Netlify has a strong focus on static site generators and JAMstack development, while Back4App supports a wider range of platforms and frameworks, including mobile and IoT development.
+    <br>Alternatives and competitors to Netlify:
+    <br>GitHub Pages: A free hosting service for static sites and web applications with built-in version control and continuous deployment features.
+    <br>Cloudflare Pages: A cloud platform for building, deploying, and scaling serverless applications with a focus on performance and security.
+    <br>Render: A cloud platform for deploying and scaling web applications with built-in features for databases, background tasks, and static site generators.
+    <br>Alternatives and competitors to Back4App:
+    <br>Hasura: A GraphQL backend-as-a-service platform for building scalable and secure serverless applications with real-time data synchronization and event triggers.
+    <br>Backendless: A mobile and web development platform for building scalable and secure serverless applications with built-in database and API management features.
+    <br>Supabase: An open-source alternative to Firebase for building real-time applications with built-in authentication, database, and API features.
+  </p>
+</div>
+
+<button class="collapsible">12. In CSS, selectors are patterns used to select the element(s) you want to style.  What is a compound selector? What is attribute selector? Provide 8 other selectors that you could use in web application. </button>
+<div class="content">
+  <p>Compound selector: A selector that combines two or more simple selectors to match elements that satisfy all the conditions.
+    <br>Attribute selector: A selector that matches elements based on their attribute values.
+    <br>Class selector: A selector that matches elements based on their class attribute values.
+    <br>ID selector: A selector that matches elements based on their unique ID attribute values.
+    <br>Descendant selector: A selector that matches elements based on their relationship to another element.
+    <br>Child selector: A selector that matches elements that are direct children of another element.
+    <br>Pseudo-class selector: A selector that matches elements based on their state or context, such as :hover or :first-child.
+    <br>Universal selector: A selector that matches all elements.
+    <br>Adjacent sibling selector: A selector that matches an element that is immediately followed by another element.
+    <br>Attribute value selector: A selector that matches elements based on the presence or absence of a certain attribute value.</p>
+</div>
+
+<button class="collapsible">13.  A task-runner is used to define different tasks, define how they are called, in which order they are executed and what dependencies they have.  Provides 2 examples of task runner. </button>
+<div class="content">
+  <p>NPM scripts: A built-in task runner that comes with Node.js and allows developers to define scripts for tasks like building, testing, and deploying their application.
+    <br>Webpack: A popular module bundler that can also be used as a task runner for tasks like bundling and minification of assets.</p>
+</div>
+
+<button class="collapsible">14. What are AJAX and XMLHttpRequest (XHR) objects respectively? Identify 3 properties and 3 methods https://www.w3schools.com/js/js_ajax_http.asp</button>
+<div class="content">
+  <p>Properties:<br>
+    statusText: Contains the HTTP status message returned by the server.<br>
+    responseType: Specifies the type of response expected from the server.<br>
+    timeout: Specifies the amount of time to wait for a response from the server.<br>
+  Methods:<br>
+  setRequestHeader(): Sets a request header to be sent with the request.<br>
+  getAllResponseHeaders(): Returns all the response headers as a string.<br>
+  overrideMimeType(): Overrides the MIME type returned by the server.</p>
+</div>
+
+<button class="collapsible">15. arrow functions in 3 different cases</button>
+<div class="content">
+  <p>1: setTimeout(() => {
+    console.log("Hello after 1 second!");
+  }, 1000); <br>2: 
+  const numbers = [1, 2, 3, 4, 5];
+  const evenNumbers = numbers.filter(num => num % 2 === 0);<br>3: 
+  const greet = (name = "world") => `Hello, ${name}!`;
+</p>
+</div>
+
+<button class="collapsible">16. The primary or most commonly-used HTTP methods are POST, GET, PUT, PATCH, and DELETE. Define each of them. Name two other methods (HTTP verbs).  https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods </button>
+<div class="content">
+  <p>POST - Used to submit data to a server to create a new resource.<br>
+    GET - Used to retrieve data from a server.<br>
+    PUT - Used to update an existing resource on the server.<br>
+    PATCH - Used to partially update an existing resource on the server.<br>
+    DELETE - Used to delete a resource from the server.<br>
+    TRACE - Used to retrieve a diagnostic trace of the actions taken by a server.<br>
+    PROPFIND - Used to retrieve properties, including metadata, of a resource on a WebDAV server.</p>
+</div>
+
+<button class="collapsible">17. toolchain, pipeline, bundler, webpack, transpiler , watcher/HMR</button>
+<div class="content">
+  <p>Toolchain - A set of tools used to perform a specific task, often used to automate software development workflows.
+    <br>Pipeline - A series of stages in which data is processed or transformed, often used in software development to describe a set of steps that code must pass through before being deployed.
+    <br>Bundler - A tool that combines multiple files into a single file, often used to package JavaScript modules for use in web applications.
+    <br>Webpack - A popular JavaScript module bundler that can handle a wide range of file types and dependencies.
+    <br>Transpiler - A tool that converts code written in one programming language to another programming language, often used to convert newer versions of a language to an older version for compatibility reasons.
+   <br>Watcher/HMR - A tool that monitors changes to source code and automatically rebuilds or updates the application without requiring a manual restart. HMR stands for "Hot Module Replacement," which allows for even faster updates to the application while it is running.</p>
+</div>
+
+<button class="collapsible">18. vanilla JS, jquery vs. jqueryUI</button>
+<div class="content">
+  <p>Vanilla JS is plain JavaScript without any third-party libraries or frameworks, while jQuery is a popular JavaScript library that simplifies DOM manipulation, event handling, and AJAX calls. jQuery UI is a collection of user interface widgets, effects, and themes built on top of jQuery, designed to make it easier to create complex UI components.</p>
+</div>
+
+<button class="collapsible">19. Each component in React has a lifecycle which you can monitor and manipulate during its three main phases. The three phases are: Mounting, Updating, and Unmounting. Explain each of these three phases are about. </button>
+<div class="content">
+  <p>The Mounting phase is when a component is initialized and inserted into the DOM for the first time, which involves calling its constructor, render() method, and componentDidMount() method. <br>The Updating phase occurs when a component's state or props change, which involves calling the render() method, componentDidUpdate() method, and shouldComponentUpdate() method to check if an update is needed. <br>The Unmounting phase occurs when a component is removed from the DOM, which involves calling the componentWillUnmount() method.</p>
+</div>
+
+<button class="collapsible">20. react Hooks allow function components to have access to state and other React features (such as  lifecycle methods). Briefly explain the purpose of each of the following hooks: useState, useEffect, useContext, useRefuse, Reducer, useCallback useMemo.</button>
+<div class="content">
+  <p>useState: The useState hook allows a function component to declare and use state variables, which can be updated and cause a re-render of the component when changed.
+
+    <br>useEffect: The useEffect hook allows a function component to perform side effects (such as fetching data or updating the DOM) after rendering, by subscribing to state and props changes.
+    
+    <br>useContext: The useContext hook allows a function component to consume data and actions from a parent component's context (a global state or theme), without needing to pass down props manually.
+    
+    <br>useRef: The useRef hook allows a function component to access and modify a mutable value (such as an input field or a timer ID) across renders, without triggering a re-render.
+    
+    <br>useReducer: The useReducer hook allows a function component to manage complex state with a reducer function (similar to Redux), by dispatching actions that update the state based on the previous state and action type.
+    
+    <br>useCallback: The useCallback hook allows a function component to memoize (cache) a function instance, preventing it from being re-created on every render, and only changing when its dependencies change.
+    
+    <br>useMemo: The useMemo hook allows a function component to memoize (cache) the result of a function, preventing it from being re-computed on every render, and only changing when its dependencies change.</p>
+</div>
+
+<button class="collapsible">21. React components, state, props, jsx, rxjs, virtual DOM</button>
+<div class="content">
+  <p>React components: They are like building blocks used to create the user interface of a web application, each encapsulating a piece of functionality that can be reused throughout the app.
+    <br>State: It is an object that holds the data that can be changed by the component and the data can trigger a re-render of the component when it changes.
+    <br>Props: They are the data that is passed from the parent component to the child component, and it helps in creating dynamic components that can be reused.
+    <br>JSX: It is a syntax extension of JavaScript that allows us to write HTML-like code inside JavaScript code, making it easier to create and manage complex UI elements.
+    <br>RxJS: It is a library that allows us to write reactive programs by providing tools for working with asynchronous data streams.
+    <br>Virtual DOM: It is a lightweight representation of the actual DOM, used by React to optimize the rendering process. It helps to minimize the number of updates required by the real DOM, which makes the application faster.</p>
+</div>
+
+<button class="collapsible">22. OAuth, short for "Open Authorization",  is an open standard for access delegation, commonly used as a way for internet users to grant websites or applications access to their information on other websites but without giving them the passwords. This mechanism is used by companies to permit the users to share information about their accounts with third-party applications or websites. What is the major difference between OAuth1 and Oauth2? https://www.oauth.com/oauth2-servers/differences-between-oauth-1-2/</button>
+<div class="content">
+  <p>The major difference between OAuth1 and OAuth2 is that OAuth1 relies on digital signatures to ensure message integrity and to prevent tampering, while OAuth2 relies on SSL/TLS for encryption and token-based authentication for message integrity and protection against tampering. Additionally, OAuth2 has a simplified flow, improved error handling, and better support for mobile devices.</p>
+</div>
+
+<button class="collapsible">23. The difference between a framework and a library lies in a concept called "inversion of control". When you use a library, you are in charge of the flow of the application. You are choosing when and where to call the library. When you use a framework, the framework is in charge of the flow. It provides some places for you to plug in your code, but it calls the code you plugged in as needed. Name two js libraries and two js framework respectively. </button>
+<div class="content">
+  <p>Moment.js: A library for parsing, validating, manipulating, and formatting dates and times in JavaScript.
+    <br>Axios: A promise-based HTTP client for making asynchronous HTTP requests in JavaScript.
+    <br>Vue.js: A progressive framework for building user interfaces that is designed to be approachable and versatile.
+    <br>Ember.js: A framework for building ambitious web applications that emphasizes convention over configuration and includes features like routing, data management, and more.</p>
+</div>
+
+<button class="collapsible">24. Compute Engine delivers configurable virtual machines running in Google's data centers with access to high-performance networking infrastructure and block storage solutions. App Engine is a fully managed, serverless platform for developing and hosting web applications at scale. Name three major differences (accessible to your overall background) between them. https://www.geeksforgeeks.org/difference-between-google-cloud-compute-engine-and-app-engine/</button>
+<div class="content">
+  <p>Compute Engine has more options for storage, including persistent disks and local SSDs, while App Engine offers NoSQL data storage through Cloud Datastore.
+    <br>Compute Engine offers more flexibility for scaling and load balancing, while App Engine has built-in autoscaling and load balancing.
+    <br>Compute Engine is billed based on usage of virtual machines, while App Engine is billed based on usage of resources such as CPU, memory, and storage.</p>
+</div>
+
+<button class="collapsible">25. Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML. What Tailwind does is  it offers more control over styling to the developers . This not only improves development speed but also improves productivity.    Name three alternatives (most popular CSS frameworks) to Tail wind, and briefly compare Tailwind with them.</button>
+<div class="content">
+  <p>Semantic UI: Semantic UI is another popular CSS framework that provides pre-designed components and styles, but it also offers a greater level of flexibility for customizing components. However, Semantic UI can be less intuitive to use compared to Tailwind.
+
+    <br>Bulma: Bulma is a modern CSS framework that emphasizes flexibility and modularity. Like Tailwind, it uses a utility-first approach and offers a wide range of customization options. However, it has a smaller community and fewer pre-designed components compared to Tailwind.
+    
+    <br>UIKit: UIKit is a lightweight and modular CSS framework that offers a range of pre-designed components. However, it has fewer customization options compared to Tailwind and may require more time to modify its components.</p>
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+
+
+
+
+
+
+
+</div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div></body></html>
